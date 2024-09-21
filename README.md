@@ -1,6 +1,6 @@
 # Receipt Processor Challenge
 
-This repository contains Java based solution to the Receipt Processor Challenge  provided by Fetch Rewards. This is developed using spring boot framework and primarily consists of 2 rest endpoints processing receipts and returns response with number of points based certain conditions.
+This repository contains Java based solution to the Receipt Processor Challenge  provided by Fetch Rewards. This is developed using spring boot framework and primarily consists of 2 rest endpoints processing receipts and returns response with number of points based on certain conditions.
 
 1. The /receipts/process POST endpoint accepts aa JSON Object with receipt details. It internally calculates the point based on the details in JSON object and returns unique UUD
 2. The /receipts/{id}/points GET endpoint returns the number of points based on the unique UUID provided in path variable.
